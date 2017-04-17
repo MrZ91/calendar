@@ -1,0 +1,12 @@
+development:
+  adapter: redis
+  url: redis://localhost:32774
+  channel_prefix: calendar_cabel
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://10.10.3.153:6381
+  channel_prefix: calendar_cabel
